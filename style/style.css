@@ -1,0 +1,160 @@
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .basic {
+    width: 80%;
+    margin: auto;
+}
+ */
+/*  NAVBAR SECTION  */
+
+nav {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+nav li {
+    margin: 1%;
+    margin-right:6%;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+nav button {
+    text-align: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 9rem;
+    background-color: #ff832a;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+/*  COVER SECTION  */
+
+.cover-img {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 110vh;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -29.5vh;
+/*     margin-left: -10vw;
+ */    color: #3e3e3e;
+}
+
+.cover-items {
+    text-align: left;
+    float: left;
+    margin-top: 20rem;
+}
+
+.cover-items h2 {
+    font-size: 40px;
+}
+
+.card img{
+    width: 3rem;
+}
+
+.cover-img img{
+    width: 1rem;
+}
+
+.cover-img button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5rem;
+    width: 9rem;
+    background-color: #2614ac;
+    border: none;
+    border-radius: 50px;
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+}
+
+/* SERVECIS SECTION*/
+
+.services {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.services .text {
+    width: 30%;
+    height: 20vh;
+    color: #1e1e1e;;
+    text-align: center;
+    margin: 5rem;
+}
+
+.services .text h5 {
+    font-weight: 700;
+    color: #2614ac;
+}
+
+.cards {
+    width: 60vw;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.services .card {
+    width: 200px;
+    height: 280px;
+    padding: 15%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(rgb(141, 141, 255),rgb(100, 0, 137));
+    font-weight: 100;
+}
+
+.services .card button {
+    width: 60%;
+    height: 11%;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 50px;
+    color: white;
+}
